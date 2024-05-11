@@ -1,0 +1,36 @@
+.navbar{
+    height: 5rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: 0;
+    z-index: 2;
+}
+.navitems{
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;
+}
+.navitem{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: yellow;
+    font-size: large;
+    cursor: pointer;
+}
+
+.Options{
+    margin: 0 6px;
+    color: yellow;
+    border: none;
+    font-weight: 800;
+    cursor: pointer;
+    background: transparent;
+}
+
+option{
+    color: black;
+}
+

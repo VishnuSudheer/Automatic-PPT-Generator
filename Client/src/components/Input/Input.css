@@ -1,0 +1,55 @@
+.input-container{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container{
+    position: relative;
+}
+
+#prompt {
+    width: 20vw;
+    height: 2rem;
+    border: none;
+    padding: 0px 6px 0px 25px;
+    border-radius: 7px;
+}
+
+#button {
+    color: #f5f500;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    padding: 15px 6px;
+    background: #3b3c3d;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    cursor: pointer;
+}
+
+#mic {
+    color: #3b3c3d;
+    height: 0.2rem;
+    display: flex;
+    align-items: center;
+    padding: 15px 6px;
+    position: absolute;
+    top: 0;
+    left:0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.loading{
+    font-size: medium;
+    color: white;
+    margin-top: 2px;
+    display: inline;
+}
