@@ -30,7 +30,7 @@ const Input = () => {
       const formData = new FormData();
       formData.append("topic", text);
       setLoad(true);
-      const response = await Axios.post('http://localhost:3001/post',formData, {
+      const response = await Axios.post('https://apptgen.vercel.app/post',formData, {
         headers: {
           'Content-Type': 'application/json'
         }
